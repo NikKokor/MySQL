@@ -1,0 +1,9 @@
+<h1>Сообщения:</h1>
+
+<ul>
+    {% for message in messages %}
+    <li>
+        <span><strong>{{ message.LOGIN }}:</strong> {{ message.MESSAGE }}</span>
+    </li>
+    {% endfor %}
+</ul>
